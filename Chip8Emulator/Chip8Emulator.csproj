@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+
+	<Authors>Jose97</Authors>
+	<Company>Jose97</Company>
+    <Title>Chip8Emulator</Title>
+    <RepositoryUrl>https://github.com/josago97/Chip8Emulator</RepositoryUrl>
+    <PackageTags>Chip8;Emulator;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <Description>A light framework to create chip8 emulators</Description>
+  </PropertyGroup>
+
+</Project>
