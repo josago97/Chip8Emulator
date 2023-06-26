@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chip8Emulator.ConsoleApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chip8Emulator.WinFormApp", "Chip8Emulator.WinFormApp\Chip8Emulator.WinFormApp.csproj", "{889C3DDB-424E-4A08-9ABD-04DD4AEA00BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chip8Emulator.BlazorApp", "Chip8Emulator.BlazorApp\Chip8Emulator.BlazorApp.csproj", "{1BAC3F3C-2D2C-40A2-B64B-7EA6AE27BD1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{889C3DDB-424E-4A08-9ABD-04DD4AEA00BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{889C3DDB-424E-4A08-9ABD-04DD4AEA00BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{889C3DDB-424E-4A08-9ABD-04DD4AEA00BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAC3F3C-2D2C-40A2-B64B-7EA6AE27BD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAC3F3C-2D2C-40A2-B64B-7EA6AE27BD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAC3F3C-2D2C-40A2-B64B-7EA6AE27BD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAC3F3C-2D2C-40A2-B64B-7EA6AE27BD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
