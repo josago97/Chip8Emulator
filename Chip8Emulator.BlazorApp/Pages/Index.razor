@@ -9,5 +9,24 @@ Welcome to your new app.
 <canvas></canvas>
 
 @code {
+    private Chip8 _chip8 = new Chip8();
 
+
+    protected override async Task OnInitializedAsync()
+    {
+        using HttpClient httpClient = new HttpClient();
+        byte[] program = await httpClient.GetByteArrayAsync("https://github.com/josago97/Chip8Emulator/raw/main/Chip8Emulator.ConsoleApp/Games/TANK");
+        _chip8.LoadProgram(program);
+
+        _ = Task.Run(Run);
+    }
+
+    private async Task Run()
+    {
+        while (true)
+        {
+            _chip8.Tick();
+            await Task.Delay(200);
+        } 
+    }
 }
